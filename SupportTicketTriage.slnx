@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SupportTicketTriage.Api/SupportTicketTriage.Api.csproj" />
+    <Project Path="src/SupportTicketTriage.Application/SupportTicketTriage.Application.csproj" />
+    <Project Path="src/SupportTicketTriage.Domain/SupportTicketTriage.Domain.csproj" />
+    <Project Path="src/SupportTicketTriage.Infrastructure/SupportTicketTriage.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SupportTicketTriage.Tests/SupportTicketTriage.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,35 @@
+# Build
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+.idea/
+*.swp
+
+# Databases
+*.db
+*.db-shm
+*.db-wal
+support-tickets.db
+
+# Secrets and local overrides
+appsettings.Local.json
+**/secrets.json
+*.pfx
+
+# Test / OS
+TestResults/
+coverage/
+*.log
+Thumbs.db
+Desktop.ini
+
+# Evidence may contain screenshots; keep only sanitized text
+evidence/*.png
+evidence/*.jpg
+evidence/*.jpeg

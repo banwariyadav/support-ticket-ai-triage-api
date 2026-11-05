@@ -1,0 +1,44 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5079",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "EventPublishing__Provider": "AzureServiceBus",
+        "AzureServiceBus__FullyQualifiedNamespace": "sb-supportticket-triage-dev.servicebus.windows.net",
+        "AzureServiceBus__QueueName": "ticket-created"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7188;http://localhost:5079",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "EventPublishing__Provider": "AzureServiceBus",
+        "AzureServiceBus__FullyQualifiedNamespace": "sb-supportticket-triage-dev.servicebus.windows.net",
+        "AzureServiceBus__QueueName": "ticket-created"
+      }
+    },
+    "azure-service-bus": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7188;http://localhost:5079",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "EventPublishing__Provider": "AzureServiceBus",
+        "AzureServiceBus__FullyQualifiedNamespace": "sb-supportticket-triage-dev.servicebus.windows.net",
+        "AzureServiceBus__QueueName": "ticket-created"
+      }
+    }
+  }
+}
